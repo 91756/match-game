@@ -1,0 +1,137 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.nav-header {
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-cont {
+  list-style-type: none;
+  display: flex;
+}
+.logo {
+  width: 120px;
+  height: 30px;
+}
+.timer-img {
+  width: 20px;
+  height: 20px;
+}
+.score {
+  color: #fec653;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.name {
+  color: #ffffff;
+  font-size: 12px;
+}
+.score-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+.image-cont {
+  margin-top: 25px;
+}
+.imgUrl {
+  width: 550px;
+  height: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .imgUrl {
+    width: 60%;
+    height: 20%px;
+  }
+  .img-list-cont {
+    list-style-type: none;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+}
+
+.image-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tab-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+.img-list-cont {
+  list-style-type: none;
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+.score-container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-size: cover;
+  padding-bottom: 25px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+}
+.score-img {
+  width: 120px;
+  height: 200px;
+}
+.txt-name {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.score-final {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.reset {
+  width: 15px;
+  height: 15px;
+}
+.playAgainBtn {
+  width: 130px;
+  height: 45px;
+  background-color: #cf60c8;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.display-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.items-list-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

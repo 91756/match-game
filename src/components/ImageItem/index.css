@@ -1,0 +1,17 @@
+.img-item {
+  width: 80px;
+  height: 80px;
+}
+.item {
+  margin: 5px;
+}
+.button {
+  border-width: 0px;
+  background-color: transparent;
+}
+@media screen and (max-width: 768px) {
+  .img-item {
+    width: 50px;
+    height: 50px;
+  }
+}

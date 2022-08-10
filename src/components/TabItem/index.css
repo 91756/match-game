@@ -1,0 +1,12 @@
+.item {
+  color: #ffffff;
+  margin: 15px;
+}
+.btn {
+  border-width: 0px;
+  background-color: transparent;
+  color: #ffffff;
+}
+.add-style {
+  border-bottom: 1px solid #fec653;
+}
